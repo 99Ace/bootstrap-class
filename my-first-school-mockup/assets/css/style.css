@@ -1,0 +1,115 @@
+/* mobile setting */
+p {
+    font-size: 0.88rem;
+}
+small {
+    font-size: 0.7rem;
+}
+
+
+/* navbar settings */
+.navbar-brand>img {
+    height: 36px;
+}
+/* collapse button */
+.navbar-toggler {
+    border-color: rgb(245, 124, 18) !important;
+}
+.fa-bars {
+    color: rgb(245, 124, 18);
+    font-size: 1.8rem;
+}
+/* navlinks */
+.navbar-nav {
+    text-align: center;
+}
+.nav-link {
+    font-size: 0.88rem;
+}
+.nav-link:hover {
+    color: rgb(245, 124, 18) !important;
+}
+
+/* button settings */
+.btn {
+    border-radius: 36px;
+    padding: 6px 30px;
+    font-size: 0.88rem;
+}
+.btn-register {
+    background-color: rgb(245, 124, 18) !important;
+    color: white !important;
+}
+.btn-register:hover {
+    background-color: rgb(215, 108, 14) !important;
+    color: white !important;
+}
+
+
+/* main setting */
+main {
+    height: 250px;
+    background-image: url('https://www.myfirstskool.com/resources/ck/images/my-first-skool-registration-children-og.png');
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+/* section intro */
+.text-mfs-2 {
+    color:rgb(245, 124, 18);
+}
+.link-mfs-3 {
+    color:rgb(255, 89, 0);
+}
+.link-mfs-3:hover {
+    color:rgb(114, 49, 142);
+}
+
+
+/* section form */
+.form-map {
+    height: 200px;
+    background-color: thistle;
+}
+
+/* ipad setting 768px*/
+@media screen and (min-width:768px) {
+    /* navbar */
+    .navbar-brand>img {
+        height: 40px;
+    }
+    main {
+        height: 300px;
+    }
+}
+/* ipad pro 992px*/
+@media screen and (min-width:992px) {
+    /* navbar */
+    .navbar-brand>img {
+        height: 44px;
+    }
+    .nav-link {
+        line-height: 3;
+    }
+    main {
+        height: 350px;
+    }
+}
+/* netbook 1200px */
+@media screen and (min-width:1200px) {
+    main {
+        height: 450px;
+    }
+}
+/* large laptop 1400px */
+@media screen and (min-width:1400px) {
+    main {
+        height: 600px;
+    }
+}
+
